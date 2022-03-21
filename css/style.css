@@ -704,9 +704,32 @@ p {
     font-weight: 700;
 }
 
+@media (max-width: 769px) {
+    .fa-twitter:before {
+        content   : "\f099";
+        font-size : 50px;
+    }
+
+    .fa-facebook:before {
+        content   : "\f099";
+        font-size : 50px;
+    }
+
+    .fa-dribbble:before {
+        content   : "\f099";
+        font-size : 50px;
+    }
+
+    .fa-instagram:before {
+        content   : "\f099";
+        font-size : 50px;
+    }
+}
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    font-size: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 h2 {
@@ -839,7 +862,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.bmp");
+    background-image: url("../img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
